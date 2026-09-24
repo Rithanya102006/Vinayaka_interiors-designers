@@ -277,6 +277,7 @@ select {
         height: 48px;
         object-fit: contain;
         flex-shrink: 0;
+        margin-left: 0;
     }
 
     .brand-text {
@@ -415,6 +416,13 @@ select {
         font-size: 17px;
     }
 
+}
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        padding-left: 3px;
+        padding-right: 8px;
+    }
 }
 
 
@@ -2206,6 +2214,30 @@ select:focus {
 
     .hero-buttons {
         flex-wrap: wrap;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .brand-logo {
+        transform: translateX(-38px);
+    }
+
+}
+@media (max-width: 768px) {
+
+    .brand-text {
+        transform: translateX(-40px);
+    }
+
+}
+@media (max-width: 768px) {
+
+    .brand-text {
+        transform: translateX(-25px);
+        white-space: normal;
+        line-height: 1.05;
+        max-width: 180px;
     }
 
 }
