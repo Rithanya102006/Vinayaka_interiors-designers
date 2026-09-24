@@ -2226,18 +2226,21 @@ select:focus {
 }
 @media (max-width: 768px) {
 
+
+
     .brand-text {
-        transform: translateX(-40px);
+        white-space: normal;
+        max-width: 175px;
+        line-height: 1.1;
+        text-align: left;
+        transform: translateX(-50px);
     }
 
 }
 @media (max-width: 768px) {
 
-    .brand-text {
-        transform: translateX(-25px);
-        white-space: normal;
-        line-height: 1.05;
-        max-width: 180px;
+    .nav-controls {
+        transform: translateX(-30px);
     }
 
 }
