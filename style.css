@@ -240,6 +240,32 @@ select {
     font-weight: 600;
     letter-spacing: 2px;
 }
+/* =====================================================
+   MOBILE HEADER
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        width: calc(100% - 24px);
+        height: 70px;
+    }
+
+    .brand {
+        gap: 7px;
+        min-width: 0;
+    }
+
+    .brand-logo {
+        width: 58px;
+        height: 58px;
+    }
+
+    .brand-text {
+        font-size: 14px;
+        letter-spacing: 1.2px;
+    }
+}
 
 /* =====================================================
    NAV LINKS
