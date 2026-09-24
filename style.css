@@ -1544,104 +1544,97 @@ select:focus {
 
 
 /* =====================================================
-   FOOTER
+   FOOTER CONTACT
 ===================================================== */
 
-.footer {
 
-    background:
-        #16120f;
-
-    color: white;
-
-    padding:
-        70px 0 25px;
-
-}
-
-
-.footer-grid {
-
+.footer-contact {
     display: flex;
-
-    justify-content: space-between;
-
-    gap: 50px;
-
-    padding-bottom: 60px;
-
+    align-items: center;
+    justify-content: flex-end;
+    gap: 22px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
 }
 
-
-.footer-brand {
-
-    font-size: 15px;
-
-    font-weight: 700;
-
-    letter-spacing: 2px;
-
-}
-
-
-.footer-brand small {
-
-    display: block;
-
-    font-size: 8px;
-
-    letter-spacing: 4px;
-
-}
-
-
-.footer-grid p {
-
-    color: #958b82;
-
-    font-size: 13px;
-
-    margin-top: 15px;
-
-}
-
-
-.footer-links {
-
+.footer-contact a {
     display: flex;
-
-    gap: 30px;
-
+    align-items: center;
+    gap: 9px;
+    color: #c2b9b1;
+    font-size: 11px;
 }
 
+.contact-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-.footer-links a {
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 50%;
 
     color: #c2b9b1;
-
-    font-size: 12px;
-
+    font-size: 11px;
+    flex-shrink: 0;
+}
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1.2fr auto 1.8fr;
+    align-items: centre;
+    gap: 45px;
+    padding-bottom: 45px;
 }
 
 
-.footer-bottom {
-
-    border-top:
-        1px solid
-        rgba(255,255,255,0.1);
-
-    padding-top: 20px;
-
-    display: flex;
-
-    justify-content: space-between;
-
-    color: #6f6862;
-
-    font-size: 10px;
-
+.footer-contact a span {
+    color: #8f8379;
+    font-size: 9px;
+    letter-spacing: 2px;
 }
 
+.footer-contact a:hover {
+    color: #ffffff;
+    transform: translateX(4px);
+}
+
+.footer-contact a:hover span {
+    color: var(--accent);
+}
+
+.footer-contact a:hover {
+    color: #ffffff;
+}
+
+.footer-contact a:hover .contact-icon {
+    background: var(--accent);
+    color: #16120f;
+    border-color: var(--accent);
+}
+@media (max-width: 700px) {
+
+    .footer-grid {
+         grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        gap: 18px 25px;
+    }
+
+    .footer-contact {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
 
 /* =====================================================
    WHATSAPP
