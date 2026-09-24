@@ -17,7 +17,7 @@ const translations = {
             "TRADITIONAL CRAFT • MODERN LIVING",
 
         heroTitle:
-            "We transform your ideas into <span> beautiful designs</span>",
+            "We transform your ideas into <span> beautiful designs.</span>",
 
         heroDescription:
             "We transform wood and ideas into beautiful interiors through quality craftsmanship and attention to every detail.",
@@ -292,7 +292,7 @@ const translations = {
             "பாரம்பரிய கைவினை • நவீன வாழ்க்கை",
 
         heroTitle:
-            "உங்கள் எண்ணங்களை <span> அழகிய வடிவமாக மாற்றுகிறோம். </span>",
+            "உங்கள் கனவுகளை <span> அழகிய வடிவமாக மாற்றுகிறோம். </span>",
 
         heroDescription:
             "உங்கள் விருப்பத்தையும் எங்கள் கைவினைத்திறனையும் இணைத்து, உங்கள் இல்லத்திற்கு தனித்துவமான அழகை உருவாக்குகிறோம்.",
