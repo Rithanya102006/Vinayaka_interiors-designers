@@ -2284,3 +2284,15 @@ body {
         box-sizing: border-box;
     }
 }
+@media (max-width: 768px) {
+    .nav-controls {
+        position: relative;
+        z-index: 1005;
+    }
+
+    .theme-toggle {
+        position: relative;
+        z-index: 1006;
+        pointer-events: auto;
+    }
+}
