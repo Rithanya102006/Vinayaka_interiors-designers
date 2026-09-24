@@ -2244,3 +2244,47 @@ select:focus {
     }
 
 }
+@media (max-width: 768px) {
+
+    .navbar {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 8px;
+        box-sizing: border-box;
+    }
+
+    .brand {
+        min-width: 0;
+        max-width: calc(100% - 120px);
+    }
+
+    .brand-text {
+        white-space: normal;
+        max-width: 170px;
+        line-height: 1.05;
+    }
+
+    .nav-controls {
+        flex-shrink: 0;
+    }
+}
+/* =====================================================
+   PREVENT HORIZONTAL SCROLL ON MOBILE
+===================================================== */
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    * {
+        max-width: 100%;
+    }
+
+    .navbar {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
